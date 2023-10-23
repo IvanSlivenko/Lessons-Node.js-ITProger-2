@@ -1,0 +1,64 @@
+0. Установка node.js з офіційного сайту
+1. node --version
+2. npm --version
+
+3.  npm init
+
+4. fs
+
+   fs.readFileSync('some.txt', 'utf-8') --- читаємо файл
+
+   fs.writeFileSync('some.txt', 'Hello World!') --- стираємо усе з файла та 
+   записуємо нову інфомацію  у файл
+
+   \n --- перенос  курсора на нову строку
+
+   ---------------------------------------------------------
+   Дописуємо у файл
+
+   let result = fs.readFileSync('some.txt', 'utf-8')
+
+   console.log(result);
+
+   fs.writeFileSync('some.txt', result + '\nHello World!')
+------------------------------------------------------------
+
+fs.mkdir('text-files', () => { 
+    fs.writeFile('./text-files/some.txt', 'Hello', () => { 
+        
+    })
+}) --- створюємо папку і файл з текстом
+
+------------------------------------------------------------
+fs.unlink('./text-files/some.txt', () => {
+    fs.rmdir('./text-files', () => { })
+ })--- видаляємо папку (а перед цим видаляємо файл)
+------------------------------------------------------------
+
+5. const http = require('http')
+
+
+
+https://www.youtube.com/watch?v=v0BVWlBiniY
+04:46
+
+https://www.youtube.com/watch?v=QRoONrUHrwo
+16:54
+
+https://www.youtube.com/watch?v=sPRmjMYiPjs
+00:00
+
+https://www.youtube.com/watch?v=idPRmLVrUys
+09:10
+
+https://www.youtube.com/watch?v=JZJ7j7FIgww
+00:00
+
+https://www.youtube.com/watch?v=vdXOL0CyKqk
+00:00
+
+https://www.youtube.com/watch?v=py3uvjNdHwY
+06:22 
+
+https://www.youtube.com/watch?v=h2xQI7_HQT0
+00:00

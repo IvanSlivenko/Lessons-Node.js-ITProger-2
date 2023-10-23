@@ -1,0 +1,25 @@
+{
+  "name": "itproger",
+  "version": "0.0.1",
+  "description": "Lessons-Node.js-ITProger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "t": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "s": "node index.js"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "dependencies": {
+    "currency-converter-lt": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSlivenko/Lessons-Node.js-ITProger-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IvanSlivenko/Lessons-Node.js-ITProger-2/issues"
+  },
+  "homepage": "https://github.com/IvanSlivenko/Lessons-Node.js-ITProger-2#readme"
+}
